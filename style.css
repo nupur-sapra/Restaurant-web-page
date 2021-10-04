@@ -49,7 +49,7 @@ a:hover {
 }
 
 .img {
-    background: url('/images/taco.jpg') center / cover;
+    background: url('images/taco.jpg') center / cover;
     height: 60vh;
     width: 64vw;
     display: flex;
@@ -236,19 +236,19 @@ hr {
     margin: 50px 0px;
     height: 80vh;
     width: 70%;
-    background: url('/images/sunbeds-2439961_1280.jpg')no-repeat, center/cover;
+    background: url('images/sunbeds-2439961_1280.jpg')no-repeat, center/cover;
     box-shadow: 2px 1px 5px 8px white;
     animation: slider 8s infinite linear;
 }
 
 @keyframes slider {
     0% {
-        background: url('/images/sunbeds-2439961_1280.jpg') no-repeat, center/cover;
+        background: url('images/sunbeds-2439961_1280.jpg') no-repeat, center/cover;
     }
     35% {
-        background: url('/images/breakfast-2649620_1280.jpg') no-repeat, center/cover;
+        background: url('images/breakfast-2649620_1280.jpg') no-repeat, center/cover;
     }
     75% {
-        background: url('/images/singapore-2313939_1280.jpg') no-repeat, center/cover;
+        background: url('images/singapore-2313939_1280.jpg') no-repeat, center/cover;
     }
 }
