@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body {
+    background: url('https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg'), linear-gradient(110deg, #f93d66, #6d47d9) no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    padding-top: 75px;
+    display: flex;
+    /* display: none; */
+    justify-content: space-evenly;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcc204;
+    height: 50px;
+    width: 13%;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: all 0.3s;
+}
+
+li {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.4rem;
+}
+
+a:hover {
+    background-color: black;
+    color: #fcc204;
+    transform: scale(0.8);
+}
+
+.section-1 {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    background: url('/images/taco.jpg') center / cover;
+    height: 60vh;
+    width: 64vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 8px 8px 10px;
+}
+
+.heading-1 p {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.4rem;
+    background-color: #fcc204;
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.heading-2 p {
+    font-family: 'Staatliches', cursive;
+    background-color: #fcc204;
+    font-size: 0.9rem;
+    margin: 25px 40px;
+    display: inline-block;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 60vh;
+    margin-left: 20px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fcc204;
+    font-size: 4rem;
+    height: 50%;
+    box-shadow: 8px 8px 10px black;
+}
+
+#kombucha {
+    margin-top: 20px;
+}
+
+#id-1 {
+    font-family: 'Staatliches', cursive;
+}
+
+.outer-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tacos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 20%;
+    box-shadow: 8px 8px 10px black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    padding-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.heading {
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1.3rem;
+}
+
+.discription {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 45px 67px;
+    padding: 50px 0px;
+    box-shadow: 8px 8px 10px black;
+}
+
+.div-1 {
+    height: 37vh;
+    width: 20vw;
+    margin-left: 50px;
+}
+
+#french-fries {
+    height: 100%;
+    width: 100%;
+}
+
+.div-2 {
+    margin-left: 30px;
+}
+
+#p-tag {
+    font-size: 1rem;
+    font-family: 'Abril Fatface', cursive;
+    margin: 10px 0px;
+}
+
+.featured-taco {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.7rem;
+}
+
+.content {
+    margin: 27px 0px;
+}
+
+.btn button {
+    background-color: #fcc204;
+    border-style: none;
+    font-size: 0.8rem;
+    height: 30px;
+    width: 30%;
+    transition: all 0.3s;
+}
+
+.btn button:hover {
+    background-color: black;
+    color: #fcc204;
+    transform: scale(1.1);
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grams {
+    font-size: 1.5rem;
+    font-family: 'Abril Fatface', cursive;
+    margin: 0px 11px;
+}
+
+.rectangle {
+    width: 39%;
+}
+
+hr {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, rgba(231, 176, 58, 0.281), rgb(224, 158, 36), rgb(253, 168, 11));
+    border-style: none;
+}
+
+#hr-line {
+    background: linear-gradient(to left, rgba(231, 176, 58, 0.281), rgb(224, 158, 36), rgb(253, 168, 11));
+}
+
+.section-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.animation {
+    margin: 50px 0px;
+    height: 80vh;
+    width: 70%;
+    background: url('/images/sunbeds-2439961_1280.jpg')no-repeat, center/cover;
+    box-shadow: 2px 1px 5px 8px white;
+    animation: slider 8s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background: url('/images/sunbeds-2439961_1280.jpg') no-repeat, center/cover;
+    }
+    35% {
+        background: url('/images/breakfast-2649620_1280.jpg') no-repeat, center/cover;
+    }
+    75% {
+        background: url('/images/singapore-2313939_1280.jpg') no-repeat, center/cover;
+    }
+}
